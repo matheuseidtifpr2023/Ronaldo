@@ -1,0 +1,56 @@
+html, body
+{
+    height: 100%; 
+    margin: 0;
+    font-family: sans-serif;
+    color: #1d0202;
+}
+
+.parallax1{
+    position: relative;
+    background-image: url("../img/parasect.jpg"); 
+    height: 100%; 
+
+    opacity: 0.5; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.caption span.border{
+    background-color: #3452508e;
+    color: white;
+    padding: 20px; 
+    font-size: 25px; 
+    letter-spacing: 10px;
+    
+}
+.parallax2{
+    position: relative;
+    background-image: url("../img/venomoth.jpg");
+    height: 100%; 
+
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    position: relative;
+    background-image: url("../img/venonat.jpg");
+    height: 100%;
+
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
